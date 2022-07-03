@@ -1,0 +1,6 @@
+bricks:
+  hello: 0.1.0+1
+  brick_starter:
+    path: ".\\bricks\\brick_starter\\"
+  create_view:
+    path: ".\\bricks\\create_view\\"

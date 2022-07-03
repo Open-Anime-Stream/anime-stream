@@ -1,0 +1,86 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "anime_stream_mobile",
+      "cwd": "anime_stream_mobile",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "anime_stream_mobile (profile mode)",
+      "cwd": "anime_stream_mobile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "anime_stream_mobile (release mode)",
+      "cwd": "anime_stream_mobile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "anime_stream_web",
+      "cwd": "anime_stream_web",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "anime_stream_web (profile mode)",
+      "cwd": "anime_stream_web",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "anime_stream_web (release mode)",
+      "cwd": "anime_stream_web",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "anime_stream_windows",
+      "cwd": "anime_stream_windows",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "anime_stream_windows (profile mode)",
+      "cwd": "anime_stream_windows",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "anime_stream_windows (release mode)",
+      "cwd": "anime_stream_windows",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "authentication_sdk",
+      "cwd": "authentication_sdk",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "core_sdk",
+      "cwd": "core_sdk",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "hooks",
+      "cwd": "bricks\\brick_starter\\hooks",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}
