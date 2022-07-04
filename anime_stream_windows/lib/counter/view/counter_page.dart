@@ -6,7 +6,7 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:anime_stream_windows/counter/counter.dart';
-import 'package:core_sdk/core_sdk.dart';
+import 'package:anime_stream_windows/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -22,8 +22,35 @@ class CounterPage extends StatelessWidget {
   }
 }
 
-class CounterView extends StatelessWidget {
+class CounterView extends StatefulWidget {
   const CounterView({super.key});
+
+  @override
+  State<CounterView> createState() => _CounterViewState();
+}
+
+class _CounterViewState extends State<CounterView> {
+  int _selectedIndex = 0;
+  static const List<Widget> _widgetOptions = <Widget>[
+    Text(
+      'Home Page',
+      style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+    ),
+    Text(
+      'Search Page',
+      style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+    ),
+    Text(
+      'Profile Page',
+      style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+    ),
+  ];
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -57,6 +84,8 @@ class CounterText extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final count = context.select((CounterCubit cubit) => cubit.state);
-    return Text('$count', style: theme.textTheme.headline1);
+    return Card(
+      child: Text('$count', style: theme.textTheme.headline1),
+    );
   }
 }

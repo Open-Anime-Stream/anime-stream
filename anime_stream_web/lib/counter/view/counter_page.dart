@@ -6,7 +6,7 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:anime_stream_web/counter/counter.dart';
-import 'package:core_sdk/core_sdk.dart';
+import 'package:anime_stream_web/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

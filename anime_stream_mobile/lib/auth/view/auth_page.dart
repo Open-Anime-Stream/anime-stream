@@ -1,4 +1,4 @@
-import 'package:core_sdk/core_sdk.dart';
+import 'package:anime_stream_mobile/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 
 class AuthPage extends StatelessWidget {
